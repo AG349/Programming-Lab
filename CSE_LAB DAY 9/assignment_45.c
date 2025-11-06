@@ -7,7 +7,7 @@ int main() {
     printf("Enter total number of cookies: ");
     scanf("%d", &totalCookies);
 
-    boxes = (totalCookies + cookiesPerBox - 1) / cookiesPerBox; // Ceiling division
+    boxes = (totalCookies + cookiesPerBox - 1) / cookiesPerBox;
     containers = (boxes + boxesPerContainer - 1) / boxesPerContainer;
 
     printf("Boxes needed: %d\n", boxes);
